@@ -14,7 +14,8 @@ body{
     background-color: $color1;}
   
   .is-clicked{
-  -webkit-transform:rotate(100deg); 
+  -webkit-transform:rotate(100deg);
+  -moz-transform:rotate(100deg);  
 }
 
 #d1{
@@ -24,6 +25,8 @@ body{
     margin-bottom: 2em;
     -webkit-transition:all 1000ms ease-in-out;
     -webkit-transform:translate(-100%, 0);
+    -moz-transition:all 1000ms ease-in-out;
+    -moz-transform:translate(-100%, 0);
   
     #title{
      width: 200px;
@@ -37,6 +40,7 @@ body{
     }
       &.is-active{
     -webkit-transform:translate(200%, 0);
+    -moz-transform:translate(200%, 0);
    }
  }
 
@@ -47,6 +51,8 @@ body{
     margin-bottom: 2em;
     -webkit-transition:all 1000ms ease-in-out;
     -webkit-transform:translate(-100%, 0);
+    -moz-transition:all 1000ms ease-in-out;
+    -moz-transform:translate(-100%, 0);
   
     #pic img{
         width: 300px;
@@ -57,6 +63,7 @@ body{
     }
      &.is-active{
      -webkit-transform:translate(116%, 0);
+     -moz-transform:translate(116%, 0);
     } 
   }
 
@@ -67,6 +74,8 @@ body{
     height: 350px;
     -webkit-transition:all 1000ms ease-in-out;
     -webkit-transform:translate(-100%, 0);
+    -moz-transition:all 1000ms ease-in-out;
+    -moz-transform:translate(-100%, 0);
   
     #intro{
          padding-top: $size1;
@@ -80,6 +89,7 @@ body{
     }
      &.is-active{
     -webkit-transform:translate(87%, 0);
+    -moz-transform:translate(87%, 0);
     }
   }
   
@@ -100,7 +110,8 @@ body{
     background-color: $color2;}
   
   .is-clicked{
-  -webkit-transform:rotate(100deg); 
+  -webkit-transform:rotate(100deg);
+  -moz-transform:rotate(100deg); 
 }
 
 #d1{
@@ -110,6 +121,8 @@ body{
     margin-bottom: 2em;
     -webkit-transition:all 1000ms ease-in-out;
     -webkit-transform:translate(-100%, 0);
+    -moz-transition:all 1000ms ease-in-out;
+    -moz-transform:translate(-100%, 0);
   
     #title{
      width: 200px;
@@ -123,6 +136,7 @@ body{
     }
       &.is-active{
     -webkit-transform:translate(105%, 0);
+    -moz-transform:translate(105%, 0);
    }
  }
 
@@ -133,6 +147,8 @@ body{
     margin-bottom: 2em;
     -webkit-transition:all 1000ms ease-in-out;
     -webkit-transform:translate(-100%, 0);
+    -moz-transition:all 1000ms ease-in-out;
+    -moz-transform:translate(-100%, 0);
   
     #pic img{
         width: 300px;
@@ -143,6 +159,7 @@ body{
     }
      &.is-active{
      -webkit-transform:translate(53%, 0);
+     -moz-transform:translate(53%, 0);
     } 
   }
 
@@ -153,6 +170,8 @@ body{
     height: 350px;
     -webkit-transition:all 1000ms ease-in-out;
     -webkit-transform:translate(-100%, 0);
+    -moz-transition:all 1000ms ease-in-out;
+    -moz-transform:translate(-100%, 0);
   
     #intro{
          padding-top: $size1;
@@ -166,6 +185,7 @@ body{
     }
      &.is-active{
     -webkit-transform:translate(35%, 0);
+    -moz-transform:translate(35%, 0);
     }
   }
   
@@ -186,7 +206,8 @@ body{
     background-color: $color3;}
   
   .is-clicked{
-  -webkit-transform:rotate(100deg); 
+  -webkit-transform:rotate(100deg);
+  -moz-transform:rotate(100deg); 
 }
 
 #d1{
@@ -196,6 +217,8 @@ body{
     margin-bottom: 2em;
     -webkit-transition:all 1000ms ease-in-out;
     -webkit-transform:translate(-100%, 0);
+    -moz-transition:all 1000ms ease-in-out;
+    -moz-transform:translate(-100%, 0);
   
     #title{
      width: 200px;
@@ -209,6 +232,7 @@ body{
     }
       &.is-active{
     -webkit-transform:translate(0, 0);
+    -moz-transform:translate(0, 0);
    }
  }
 
@@ -219,6 +243,8 @@ body{
     margin-bottom: 2em;
     -webkit-transition:all 1000ms ease-in-out;
     -webkit-transform:translate(-100%, 0);
+    -moz-transition:all 1000ms ease-in-out;
+    -moz-transform:translate(-100%, 0);
   
     #pic img{
         width: 300px;
@@ -229,6 +255,7 @@ body{
     }
      &.is-active{
      -webkit-transform:translate(0, 0);
+     -moz-transform:translate(0, 0);
     } 
   }
 
@@ -239,6 +266,8 @@ body{
     height: 350px;
     -webkit-transition:all 1000ms ease-in-out;
     -webkit-transform:translate(-100%, 0);
+    -moz-transition:all 1000ms ease-in-out;
+    -moz-transform:translate(-100%, 0);
   
     #intro{
          padding-top: $size1;
@@ -252,6 +281,7 @@ body{
     }
      &.is-active{
     -webkit-transform:translate(0, 0);
+    -moz-transform:translate(0, 0);
     }
   }
   
