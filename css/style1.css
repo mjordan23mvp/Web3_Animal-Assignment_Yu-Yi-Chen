@@ -2,44 +2,62 @@
   body {
     background-color: #29abe2; }
 
+  .is-clicked {
+    -webkit-transform: rotate(100deg); }
+
   #d1 {
     background-color: #00719e;
-    width: 280px; }
+    width: 280px;
+    height: 200px;
+    margin-bottom: 2em;
+    -webkit-transition: all 1000ms ease-in-out;
+    -webkit-transform: translate(-100%, 0); }
+    #d1 #title {
+      width: 200px;
+      padding-top: 30px;
+      padding-right: 50px;
+      padding-bottom: 30px;
+      padding-left: 50px;
+      font-family: Arial;
+      color: white;
+      font-size: 38px; }
+    #d1.is-active {
+      -webkit-transform: translate(0, 0); }
 
   #d2 {
     background-color: #00719e;
-    width: 420px; }
+    width: 420px;
+    height: 250px;
+    margin-bottom: 2em;
+    -webkit-transition: all 1000ms ease-in-out;
+    -webkit-transform: translate(-100%, 0); }
+    #d2 #pic img {
+      width: 300px;
+      padding-top: 50px;
+      padding-right: 50px;
+      padding-bottom: 30px;
+      padding-left: 50px; }
+    #d2.is-active {
+      -webkit-transform: translate(0, 0); }
 
   #d3 {
+    margin-bottom: 20em;
     background-color: #00719e;
-    width: 780px; }
-
-  #title {
-    width: 200px;
-    padding-top: 30px;
-    padding-right: 50px;
-    padding-bottom: 30px;
-    padding-left: 50px;
-    font-family: Arial;
-    color: white;
-    font-size: 38px; }
-
-  #pic img {
-    width: 300px;
-    padding-top: 50px;
-    padding-right: 50px;
-    padding-bottom: 30px;
-    padding-left: 50px; }
-
-  #intro {
-    padding-top: 50px;
-    padding-right: 50px;
-    padding-bottom: 30px;
-    padding-left: 50px;
-    font-family: Arial;
-    color: white;
-    font-size: 14px;
-    width: 700px; }
+    width: 500px;
+    height: 350px;
+    -webkit-transition: all 1000ms ease-in-out;
+    -webkit-transform: translate(-100%, 0); }
+    #d3 #intro {
+      padding-top: 50px;
+      padding-right: 50px;
+      padding-bottom: 30px;
+      padding-left: 50px;
+      font-family: Arial;
+      color: white;
+      font-size: 14px;
+      width: 400px; }
+    #d3.is-active {
+      -webkit-transform: translate(0, 0); }
 
   #copyright {
     font-family: Arial;
@@ -51,44 +69,62 @@
   body {
     background-color: #fbb03b; }
 
+  .is-clicked {
+    -webkit-transform: rotate(100deg); }
+
   #d1 {
     background-color: #f7931e;
-    width: 280px; }
+    width: 280px;
+    height: 200px;
+    margin-bottom: 2em;
+    -webkit-transition: all 1000ms ease-in-out;
+    -webkit-transform: translate(-100%, 0); }
+    #d1 #title {
+      width: 200px;
+      padding-top: 30px;
+      padding-right: 50px;
+      padding-bottom: 30px;
+      padding-left: 50px;
+      font-family: Arial;
+      color: white;
+      font-size: 38px; }
+    #d1.is-active {
+      -webkit-transform: translate(0, 0); }
 
   #d2 {
     background-color: #f7931e;
-    width: 420px; }
+    width: 420px;
+    height: 250px;
+    margin-bottom: 2em;
+    -webkit-transition: all 1000ms ease-in-out;
+    -webkit-transform: translate(-100%, 0); }
+    #d2 #pic img {
+      width: 300px;
+      padding-top: 50px;
+      padding-right: 50px;
+      padding-bottom: 30px;
+      padding-left: 50px; }
+    #d2.is-active {
+      -webkit-transform: translate(0, 0); }
 
   #d3 {
+    margin-bottom: 20em;
     background-color: #f7931e;
-    width: 780px; }
-
-  #title {
-    width: 200px;
-    padding-top: 30px;
-    padding-right: 50px;
-    padding-bottom: 30px;
-    padding-left: 50px;
-    font-family: Arial;
-    color: white;
-    font-size: 38px; }
-
-  #pic img {
-    width: 300px;
-    padding-top: 50px;
-    padding-right: 50px;
-    padding-bottom: 30px;
-    padding-left: 50px; }
-
-  #intro {
-    padding-top: 50px;
-    padding-right: 50px;
-    padding-bottom: 30px;
-    padding-left: 50px;
-    font-family: Arial;
-    color: white;
-    font-size: 14px;
-    width: 700px; }
+    width: 500px;
+    height: 350px;
+    -webkit-transition: all 1000ms ease-in-out;
+    -webkit-transform: translate(-100%, 0); }
+    #d3 #intro {
+      padding-top: 50px;
+      padding-right: 50px;
+      padding-bottom: 30px;
+      padding-left: 50px;
+      font-family: Arial;
+      color: white;
+      font-size: 14px;
+      width: 400px; }
+    #d3.is-active {
+      -webkit-transform: translate(0, 0); }
 
   #copyright {
     font-family: Arial;
@@ -100,44 +136,62 @@
   body {
     background-color: gray; }
 
+  .is-clicked {
+    -webkit-transform: rotate(100deg); }
+
   #d1 {
     background-color: #666666;
-    width: 280px; }
+    width: 280px;
+    height: 200px;
+    margin-bottom: 2em;
+    -webkit-transition: all 1000ms ease-in-out;
+    -webkit-transform: translate(-100%, 0); }
+    #d1 #title {
+      width: 200px;
+      padding-top: 30px;
+      padding-right: 50px;
+      padding-bottom: 30px;
+      padding-left: 50px;
+      font-family: Arial;
+      color: white;
+      font-size: 38px; }
+    #d1.is-active {
+      -webkit-transform: translate(0, 0); }
 
   #d2 {
     background-color: #666666;
-    width: 420px; }
+    width: 420px;
+    height: 250px;
+    margin-bottom: 2em;
+    -webkit-transition: all 1000ms ease-in-out;
+    -webkit-transform: translate(-100%, 0); }
+    #d2 #pic img {
+      width: 300px;
+      padding-top: 50px;
+      padding-right: 50px;
+      padding-bottom: 30px;
+      padding-left: 50px; }
+    #d2.is-active {
+      -webkit-transform: translate(0, 0); }
 
   #d3 {
+    margin-bottom: 20em;
     background-color: #666666;
-    width: 780px; }
-
-  #title {
-    width: 200px;
-    padding-top: 30px;
-    padding-right: 50px;
-    padding-bottom: 30px;
-    padding-left: 50px;
-    font-family: Arial;
-    color: white;
-    font-size: 38px; }
-
-  #pic img {
-    width: 300px;
-    padding-top: 50px;
-    padding-right: 50px;
-    padding-bottom: 30px;
-    padding-left: 50px; }
-
-  #intro {
-    padding-top: 50px;
-    padding-right: 50px;
-    padding-bottom: 30px;
-    padding-left: 50px;
-    font-family: Arial;
-    color: white;
-    font-size: 14px;
-    width: 700px; }
+    width: 500px;
+    height: 350px;
+    -webkit-transition: all 1000ms ease-in-out;
+    -webkit-transform: translate(-100%, 0); }
+    #d3 #intro {
+      padding-top: 50px;
+      padding-right: 50px;
+      padding-bottom: 30px;
+      padding-left: 50px;
+      font-family: Arial;
+      color: white;
+      font-size: 14px;
+      width: 400px; }
+    #d3.is-active {
+      -webkit-transform: translate(0, 0); }
 
   #copyright {
     font-family: Arial;
