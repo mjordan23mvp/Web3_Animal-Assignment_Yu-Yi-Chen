@@ -2,10 +2,6 @@
   body {
     background-color: #29abe2; }
 
-  .is-clicked {
-    -webkit-transform: rotate(100deg);
-    -moz-transform: rotate(100deg); }
-
   #d1 {
     background-color: #00719e;
     width: 280px;
